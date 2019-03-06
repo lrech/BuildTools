@@ -4,13 +4,13 @@
     <id>$rootnamespace$</id>
     <version>1.0.[buildNumber]</version>
     <title>$rootnamespace$</title>
-    <authors>Fabien Ruffin</authors>
-    <owners>Pluralsight</owners>
-    <iconUrl>http://static.fabienruffin.com/fabienruffin/2015/09/logo-128x128.png</iconUrl>
+    <authors>Hardcat</authors>
+    <owners>Hardcat</owners>
+    <iconUrl>https://www.hardcat.com/wp/wp-content/uploads/2018/05/hardcat-logo_white-2x.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$rootnamespace$</description>
     <releaseNotes>[release notes]</releaseNotes>
-    <copyright>Pluralsight Copyright 2015</copyright>
+    <copyright>Hardcat Copyright 2019</copyright>
     <tags></tags>
   </metadata>
 </package>

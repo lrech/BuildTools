@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0"?>
 <package>
   <metadata>
-    <id>Pluralsight.Build</id>
-    <version>1.0.0</version>
-    <title>Pluralsight Build Scripts</title>
-    <authors>Fabien Ruffin</authors>
-    <owners>Pluralsight</owners>
-    <iconUrl>http://static.fabienruffin.com/fabienruffin/2015/09/logo-128x128.png</iconUrl>
+    <id>Hardcat.Build</id>
+    <version>1.0.1</version>
+    <title>Build Scripts</title>
+    <authors>Hardcat</authors>
+    <owners>Hardcat</owners>
+    <iconUrl>https://www.hardcat.com/wp/wp-content/uploads/2018/05/hardcat-logo_white-2x.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>This package contains a generic, portable and reusable build script. This package was build for the Pluralsight course &quot;Continuous Integration with psake and TeamCity: Getting Started&quot;</description>
+    <description>This package contains a generic, portable and reusable build script.</description>
     <releaseNotes>Initial release</releaseNotes>
-    <copyright>Pluralsight Copyright 2015</copyright>
-    <tags>pluralsight build psake</tags>
+    <copyright>Hardcat Copyright 2019</copyright>
+    <tags>build psake</tags>
     <dependencies>
       <dependency id="7-Zip.CommandLine" version="18.1.0" />
       <dependency id="NuGet.CommandLine" version="4.9.3" />

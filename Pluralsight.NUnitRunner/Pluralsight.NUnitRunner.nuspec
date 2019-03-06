@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>Pluralsight.NUnitRunner</id>
-    <version>1.0.0</version>
-    <title>Pluralsight NUnit Runner</title>
-    <authors>Fabien Ruffin</authors>
-    <owners>Pluralsight</owners>
-    <iconUrl>http://static.fabienruffin.com/fabienruffin/2015/09/logo-128x128.png</iconUrl>
+    <id>Hardcat.NUnitRunner</id>
+    <version>1.0.1</version>
+    <title>Hardcat NUnit Runner</title>
+    <authors>Hardcat</authors>
+    <owners>Hardcat</owners>
+    <iconUrl>https://www.hardcat.com/wp/wp-content/uploads/2018/05/hardcat-logo_white-2x.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>This package will register the build target for the NUnit test runner, to be used in conjunction with Pluralsight.Build. This package was build for the Pluralsight course &quot;Continuous Integration with psake and TeamCity: Getting Started&quot;</description>
+    <description>This package will register the build target for the NUnit test runner, to be used in conjunction with Hardcat.Build.</description>
     <releaseNotes>Initial release</releaseNotes>
-    <copyright>Pluralsight Copyright 2015</copyright>
-    <tags>pluralsight nunit test runner build psake</tags>
+    <copyright>Hardcat Copyright 2019</copyright>
+    <tags>nunit test runner build psake</tags>
     <dependencies>
       <dependency id="NUnit" version="3.5.0" />
     </dependencies>

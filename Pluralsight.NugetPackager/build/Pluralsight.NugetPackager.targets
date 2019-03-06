@@ -13,8 +13,8 @@
   <PropertyGroup>
     <PrepareForRunDependsOn>
       $(PrepareForRunDependsOn);
-      _CopyApplications
-      _PackageLibrary
+      _CopyApplications;
+      _PackageLibrary;
     </PrepareForRunDependsOn>
   </PropertyGroup>
 
@@ -25,7 +25,7 @@
   This target will package the project as a NuGet package and copy it into a _PublishedLibraries folder.
   ============================================================
   -->
-  <Target Name="PackageLibrary" Condition="'$(OutDir)' != '$(OutputPath)' And '$(NuGetToolPath)' != '' And '$(ProjectType)'=='Library'" >
+  <Target Name="_PackageLibrary" Condition="'$(OutDir)' != '$(OutputPath)' And '$(NuGetToolPath)' != '' And '$(ProjectType)'=='Library'" >
     <!-- Log tasks -->
     <Message Text="Package class library  for $(MSBuildProjectName)" />
     <Message Text="OutputType: $(OutputType)"/>
