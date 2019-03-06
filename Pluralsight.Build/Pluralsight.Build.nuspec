@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Pluralsight.Build</id>
+    <version>1.0.0</version>
+    <title>Pluralsight Build Scripts</title>
+    <authors>Fabien Ruffin</authors>
+    <owners>Pluralsight</owners>
+    <iconUrl>http://static.fabienruffin.com/fabienruffin/2015/09/logo-128x128.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package contains a generic, portable and reusable build script. This package was build for the Pluralsight course &quot;Continuous Integration with psake and TeamCity: Getting Started&quot;</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Pluralsight Copyright 2015</copyright>
+    <tags>pluralsight build psake</tags>
+    <dependencies>
+      <dependency id="7-Zip.CommandLine" version="18.1.0" />
+      <dependency id="NuGet.CommandLine" version="4.9.3" />
+      <dependency id="NUnit.Runners" version="3.9.0" />
+      <dependency id="OpenCover" version="4.7.922" />
+      <dependency id="psake" version="4.7.4" />
+      <dependency id="ReportGenerator" version="4.0.14" />
+      <dependency id="xunit.runner.console" version="2.4.1" />
+    </dependencies>
+  </metadata>
+</package>
