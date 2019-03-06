@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Hardcat.NuGetPackager</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>Hardcat NuGet Packager</title>
     <authors>Hardcat</authors>
     <owners>Hardcat</owners>

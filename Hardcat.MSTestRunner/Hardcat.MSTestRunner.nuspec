@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Hardcat.MSTestRunner</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>MSTest Runner</title>
     <authors>Hardcat</authors>
     <owners>Hardcat</owners>
